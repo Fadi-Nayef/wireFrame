@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(209, 204, 204);
+}
+h1{
+text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul{
+    float:inline-start ;
+    size: 100%;
+    list-style-type:  none; 
+  margin: 0;
+  padding: 0px;
+  overflow:hidden;
+  background-color: #333333;
+  position: relative;
+}
+ul li {
+    float: left;
+}
+    ul li a{
+        height: 70px ;
+        width: 200;
+        display:block;
+        color: whitesmoke ;
+        text-decoration: none;
+        text-align: left;
+        padding: 10px;
+        margin-top: 25px;
+
+}
+#logo{
+    max-width: 200px;
+    height: 70px;
+   margin-right:100%;
+    position: relative;
+
+}
+div img {
+  width:100%;  
+}
+
+
+.cardbanner{
+    float: inline-start;
+    display: inline;
+    padding: 30px;
+    width:100&;
+}
+article {
+    display: inline;
+    display: inline-block;
+    float: left;
+
+
+}
+#scrollable {
+    background-color: #efe6f0;
+    width: 600px;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-align: center;
+    padding: 20px;
+    float: right;
+  }
+  button{
+      object-position: bottom;
+  }
+  footer{
+      background-color: lightblue;
+      background-size: 10px;
+      size: 10px;
+  }
+  section{
+      width: 100%;
+  }
